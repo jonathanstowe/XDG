@@ -1,7 +1,6 @@
 #!perl6
 
 use v6;
-use lib 'lib';
 use Test;
 
 use XDG::X;
@@ -51,6 +50,6 @@ isa-ok($e, Exception, "XDG::X::NoThemeError is an Exception");
 is($e.message, "No such icon-theme: test_theme", "got good message");
 throws-like { $e.throw }, XDG::X::NoThemeError, message => "No such icon-theme: test_theme";
 
-done;
+done-testing;
 
-# vim: ft=6
+# vim: expandtab shiftwidth=4 ft=perl6
