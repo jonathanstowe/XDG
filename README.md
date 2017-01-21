@@ -18,41 +18,26 @@ to work in those environments.
 
 ## Installation
 
-Assuming you have a working perl6 installation you should be able to
-install this with *ufo* :
-
-     ufo
-     make test
-     make install
-
-*ufo* can be installed with *panda* for rakudo:
-
-     panda install ufo
-
-
-Alternatively you could install with *panda* from the checkout:
-
-     panda install .
-
-or remote:
+Assuming you have a working Rakudo Perl 6 installation you should be able to
+install this with *panda* :
 
      panda install XDG 
 
-Other install mechanisms may be become available in the future.
+This should work equally with *zef* but I may not have tested it.
 
 ## Support
 
-This should be considered experimental software until such time that
-Perl 6 reaches an official release.  However suggestions/patches are
-welcomed via github at
+Suggestions/patches are welcomed via github at
 
-   https://github.com/jonathanstowe/XDG
+https://github.com/jonathanstowe/XDG
 
 I'm not able to test on a wide variety of platforms so any help there
 would be appreciated.
 
 ## Licence
 
-Please see the LICENCE file in the distribution
+This is free software.
 
-(C) Jonathan Stowe 2015
+Please see the [LICENCE](LICENCE) file in the distribution
+
+© Jonathan Stowe 2015, 2016, 2017
