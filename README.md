@@ -19,17 +19,15 @@ to work in those environments.
 ## Installation
 
 Assuming you have a working Rakudo Perl 6 installation you should be able to
-install this with *panda* :
+install this with *zef* :
 
-     panda install XDG 
-
-This should work equally with *zef* but I may not have tested it.
+     zef install XDG 
 
 ## Support
 
 Suggestions/patches are welcomed via github at
 
-https://github.com/jonathanstowe/XDG
+https://github.com/jonathanstowe/XDG/issues
 
 I'm not able to test on a wide variety of platforms so any help there
 would be appreciated.
